@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .aligment{
+            text-align: center;
+        }
+        .aligment1{
+            text-align:right ;
+        }
+        .aligment2{
+            text-align: left;
+        }
+        #justify{
+            /* text-align: justify; */ 
+            border:  1px solid black;
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+        }
+        p.x{
+            text-align-last: right;
+        }
+        p.y{
+            text-align-last: right;
+        }
+        p.z{
+            text-align-last: justify;
+        }
+        img.a{
+            vertical-align: baseline;
+            height: 90px;
+            width: 90px;
+        }
+        img.b{
+            vertical-align: text-top;
+            height: 90px;
+            width: 90px;
+        }
+        img.c{
+            vertical-align: text-bottom;
+            height: 90px;
+            width: 90px;
+        }
+        img.d{
+            vertical-align: sub;
+            height: 90px;
+            width: 90px;
+        }
+        img.e{
+            vertical-align: super;
+            height: 90px;
+            width: 90px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>css text</h1>
+    <h2>its properties</h2>
+    <ul>
+        <li>text aligment and text dirction</li>
+        <li>text decoration</li>
+        <li>text tranformation</li>
+        <li>text spacing</li>
+        <li>text shadow</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+    <h2>text aligment and text dirction </h2>
+    <p>properties</p>
+    <ol>
+        <li>text-align</li>
+        <li>text-align-last</li>
+        <li>dirction</li>
+        <li>unicode-bidi</li>
+        <li>vertical-align</li>
+    </ol>
+
+    <p class="aligment">it is a property which is used to set set horizontal alignment of a text</p>
+    <p class="aligment1">it is a property which is used to set set horizontal alignment of a text</p>
+    <p class="aligment2">it is a property which is used to set set horizontal alignment of a text</p>
+
+    <div id="justify">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Nam magni quibusdam itaque eveniet necessitatibus dolores nesciunt natus vero,
+         vitae adipisci non,
+         ad architecto animi similique in ut, 
+         eaque nulla inventore.
+    </div>
+
+
+    <h3>aligment last:- specify jo last wale line ko specify karta he</h3>
+    <p class="x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorem.</p>
+    <p class="y">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorem.</p>
+    <p class="z">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorem.</p>
+
+    <h3>Text direction & unicode-bidi:- mirror codewith diection change</h3>
+    <p style="direction: rtl; unicode-bidi: bidi-override;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, delectus.</p>
+    <h2>vertical-align properties</h2>
+    <h6>vertical-align:- baseline(default)</h6>
+    <p>An apple
+         <img class="a" src="https://img.freepik.com/premium-photo/apple_980000-670.jpg?semt=ais_hybrid&w=740" alt="apple"> is good for health</p>
+    <h6>vertical-align:- text top  </h6>
+    <p>An banana
+        <img class="b" src="https://www.jiomart.com/images/product/original/590000454/banana-robusta-1-kg-product-images-o590000454-p590000454-0-202410011654.jpg?im=Resize=(420,420)" alt="banana">
+    </p>
+    <h6>vertical-align:-bottom </h6>
+    <p>
+        an kiwi
+        <img class="c" src="https://www.sakraworldhospital.com/assets/spl_splimgs/benefits-kiwi-of-fruit.webp" alt="kiwi">
+    </p>
+    <h6>vertical-align:- sub </h6>
+    <p>an pomegranate
+        <img class="d" src="https://exoticflora.in/cdn/shop/products/221936.jpg?v=1499122198" alt="pomegranate">
+    </p>
+    <h6>vertical-align:- super </h6>
+    <p>an orange
+        <img class="e" src="https://exoticflora.in/cdn/shop/files/2_f3f40382-484b-4bb9-b225-56240de0efd7_1080x.png?v=1709276156" alt="orange">
+    </p>
+
+
+
+</body>
+</html>
+  <!-- justify add some space acc. to their code -->

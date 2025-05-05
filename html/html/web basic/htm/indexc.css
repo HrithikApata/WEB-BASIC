@@ -1,0 +1,50 @@
+*{
+    background-color: aquamarine;
+}
+/* html{
+    font-family: 'Courier New', Courier, monospace;
+} */
+body{
+    background-color: aqua;
+}
+h1{
+    color: rgb(28, 17, 2);
+    text-align: center;
+}
+/* selector  p */
+p{
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(0, 0, 36);
+}
+#selector{
+    text-align: center;
+    color: rgb(41, 1, 1);
+}
+ol.cata {
+    text-align: center;
+    color: rgb(13, 246, 13);
+    background-color: rgb(10, 10, 9);
+}
+/* it specifies that in this class this list is only going to change otherwise it aplly all the first li in other li */
+ol.cata li.gories{
+    color: brown;
+    text-align: center;
+}
+to specify a paticular element to change thats why we doing this
+ ul li.gorie{
+    color: rgb(248, 242, 242);
+
+}
+h2, blockquote, pre{
+    color: red;
+    text-align: center;
+}
+
+
+
+
+ /* declaration block- {} */
+ /* property:-property value */
+ /* text color is font family */
