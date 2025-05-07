@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            display: inline;
+        }
+        /* li{
+            display: block;
+        } */
+        span{
+            display: block;
+        }
+        /* h1{
+            display: none;
+        }
+        hoga but dikhai nahi dega */
+        /* h1{
+            visibility: hidden;
+        }
+        h1{
+            visibility: collapse;
+        } */
+        div.ex1{
+            width: 500px;
+            margin: auto;
+            border: 1px solid black;
+            position: relative;
+        }
+        div.ex2{
+            max-width:500px;
+            margin: auto;
+            border: 1px solid black;
+            position: absolute;
+        }
+        div.ex3{
+            max-width:500px;
+            margin: auto;
+            border: 1px solid black;
+            position: sticky;
+            
+        }
+        /* }
+        position :fixed */
+    </style>
+</head>
+<body>
+    <div class="ex1">
+    <h1>CSS Display</h1>
+    <p>hello today <span>im learninig css</span></p>
+    <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>Java script</li>
+        <li>react</li>
+    </ul>
+</div>
+<div class="ex2">
+    <h1>CSS Display</h1>
+    <p>hello today <span>im learninig css</span></p>
+    <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>Java script</li>
+        <li>react</li>
+    </ul>
+    <div class="ex3">
+        <h1>CSS Display</h1>
+        <p>hello today <span>im learninig css</span></p>
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>Java script</li>
+            <li>react</li>
+        </ul>
+</div>
+</body>
+</html>
+<!-- span dont take area but if we display it in block it takes some area -->
