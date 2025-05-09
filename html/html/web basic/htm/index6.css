@@ -1,0 +1,14 @@
+div + p{
+    background-color: yellow;
+}
+/* Next sibiling combinator (+): like adjacent sibling: */
+
+section ~ p{
+    background-color: darkblue;
+
+}
+/* subsequent sibiling combinator(~) */
+/* div > p{
+    background-color: aqua;
+} */
+/* child class */

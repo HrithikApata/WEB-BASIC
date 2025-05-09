@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+        }
+        .rounded-box{
+            width: 300px;
+            height: 150px;
+            background-color: rgb(48, 10, 10);
+            border-radius: 0px 20px 30px 40px;
+            line-height: 110px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1) ;
+            text-align: center;
+        }
+        .image-border-box{
+            width: 300px;
+            height: 150px;
+            border-radius: 20px;
+            border-image-source:url("https://static.sociofyme.com/photo/151343417/151343417.jpg") ;
+            border-image-slice: 30 ;
+            border-image-repeat: round;
+            border-image-outset: 0;
+            border-image-width: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .background-box{
+            width: 300px;
+            height: 150px;
+            background-color: red;
+            background-image: url("https://i.pinimg.com/736x/67/41/f0/6741f076574eaa0f7059a765a6c9467f.jpg");
+            background-color: blue;
+            background-size: cover;
+            background-position: right top;
+            background-size: 100px auto;
+            padding: 20px;
+            line-height: 20px;
+            text-align: center;
+            border: 1px solid pink;
+            border-radius: 0px 20px 30px 40px;
+
+        }
+        div{
+            padding: 15px;
+            margin-bottom: 10px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .named-color{
+            background-color: red;
+        }
+        .hex-color{
+            background-color: #3498db;
+        }
+        .rgb-color{
+            background-color: rgb(46, 167, 204);
+            /* background-color: aqua; */
+        }
+        .rgba-color{
+            background-color: rgba(0, 0, 0, 1);
+            
+        }
+        .hsla-color{
+            background-color: hsla(240, 86%, 49%, 0.1);
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Rounded Corner</h1>
+    
+    <div class="rounded-box">this box has rounded corners</div>
+    <h2>Box with Border image</h2>
+    <div class="image-border-box">
+        this box has made from image
+    </div>
+    <h2>Background example</h2> 
+    <div class="background-box">
+        this box has a bacground image
+        <!-- <img src="https://i.pinimg.com/736x/67/41/f0/6741f076574eaa0f7059a765a6c9467f.jpg" alt="naruto"> -->
+    </div>
+    <h2>CSS color Example</h2>
+    <div class="named-color">
+        Named color:- red  standard color or main color 
+    </div>
+    <div class="hex-color">
+        Hex color:- #3498db
+    </div>
+    <div class="rgb-color">
+        RGB color 
+    </div>
+    <div class="rgba-color">
+        RGBA color
+    </div>
+    <div class="hsla-color">
+        HSLA color
+    </div>
+</body>
+</html>
