@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+.flex-item-left{
+    background-color: rgb(52, 5, 5);
+    padding: 10px;
+    flex: 50%;
+}
+.flex-item-right{
+    background-color: rgb(5, 52, 5);
+    padding: 10px;
+    flex: 50%;
+}
+@media(max-width:800px) {
+    /* .flex-container */
+    .flex-item-left, .flex-item-right{
+        flex-direction: column;
+        flex: 100%;
+    }
+
+}

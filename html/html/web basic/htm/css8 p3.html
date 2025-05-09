@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1h1, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* display:inline-grid;
+            display:flexbox; */
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: darkcyan;
+            /* column-gap: 50px;
+            row-gap: 50px; */
+            /* gap: 50px 70px; row,column */
+            gap: 70px;
+            padding: 30px;
+        }
+        .container > div{
+            background-color: darkgoldenrod;
+            /* border: 1px solid black; */
+            padding: 10px;
+            
+            font-size: 20px;
+            text-align: center;
+        }
+        .item1{
+           grid-column-start: 1;
+           grid-column-end: 3;
+        }
+        .item7{
+           grid-column-start: 1;
+           grid-column-end: 3;
+        }
+        .item4{
+           grid-column: 1 / span 2 ;;
+        }
+        .item5{
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS Grid</h1>
+    <p>it is two dimentional, it apply both column, and row at a same time</p>
+
+    <h3>Grid components</h3>
+    <ol>
+        <li>Grid container:- used for parent</li>
+        <li>Grid item:- used for child</li>
+    </ol>
+
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item1">2</div>
+        <div class="item2">3</div>
+        <div class="item3">4</div>
+        <div class="item4">5</div>
+        <div class="item5">6</div>
+        <div class="item6">7</div>
+        <div class="item7">8</div>
+        <div class="item8">9</div>
+        <div class="item9">10</div>
+    </div>
+</body>
+</html>
